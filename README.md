@@ -3,6 +3,8 @@
 This is a simple `docker-compose.yaml` that ties up a little project I used to
 get to know some technologies that are still new to me.
 
+Run with `docker-compose up` and observe the output at [`localhost:8080`](http://localhost:8080).
+
 ## Angular
 
 You can find the code for that [here](https://github.com/SonkeWohler/frontend).
