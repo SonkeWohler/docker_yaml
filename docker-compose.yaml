@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  backend:
+    build: git@github.com:SonkeWohler/backend.git
+    image: knosc_backend
+    hostname: 127.0.0.1
+    ports:
+      - 5000:5000
+  frontend:
+    build: git@github.com:SonkeWohler/frontend.git
+    image: knosc_frontend
+    hostname: localhost
+    ports:
+      - 8080:80
