@@ -6,6 +6,7 @@ services:
     hostname: 127.0.0.1
     ports:
       - 5000:5000
+    stop_signal: SIGINT   # https://github.com/docker/compose/issues/4199#issuecomment-426109482
   frontend:
     build: git@github.com:SonkeWohler/frontend.git
     image: knosc_frontend
